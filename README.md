@@ -152,15 +152,15 @@ npm run dev
 
 ### Login Page
 
-(Add screenshot here)
+![image alt]()
 
 ### Dashboard
 
-(Add screenshot here)
+![image alt]()
 
 ### Booking System
 
-(Add screenshot here)
+![image alt]()
 
 ---
 
