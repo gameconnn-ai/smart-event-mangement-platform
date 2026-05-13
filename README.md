@@ -70,7 +70,7 @@ Handle application business logic and route processing.
 * Documentation
 * Testing coordination
 
-### Member 2 — Frontend Developer
+### Member 2 - Frontend Developer
 
 * UI/UX design
 * EJS pages
