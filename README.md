@@ -148,31 +148,31 @@ npm run dev
 
 ### Home Page
 
-![image alt](https://github.com/gameconnn-ai/smart-event-mangement-platform/blob/a8957945d09629bf2f38f68218902aaad6fb1c3b/WhatsApp%20Image%202026-05-13%20at%2010.02.37.jpeg)
+![Home](./images/Home.jpeg)
 
 ### Login Page
 
-![image alt](https://github.com/gameconnn-ai/smart-event-mangement-platform/blob/ee62689539d13e5cb14a7dbfd148c05055ed936d/Media.jpeg)
+![Login](./images/Login.jpeg)
 
 ### Dashboard
 
-![image alt](https://github.com/gameconnn-ai/smart-event-mangement-platform/blob/356215651af5a7011d2f7c7ceb08c2fc4b437432/Media%20(3).jpeg)
+![Dashboard](./images/Dashboard.jpeg)
 
 ### Booking System
 
-![image alt](https://github.com/gameconnn-ai/smart-event-mangement-platform/blob/8d66fbcd6ca841e33b464341b8cd6359d5d06503/Media%20(2).jpeg)
+![Booking](./images/Booking.jpeg)
 
 ---
 ## Architecture diagrams
 
 ### 1. System Architecture Diagram
-![image alt](https://github.com/gameconnn-ai/smart-event-mangement-platform/blob/241d771097def636cb7dad0b8424e648945a6a14/Media%20(7).jpeg)
+![System](./images/System.jpeg)
 ### 2. MVC Architecture Diagram
-![image alt](https://github.com/gameconnn-ai/smart-event-mangement-platform/blob/4fabe89d1ae8a98f1f2357595063a5d2484d0606/new.jpeg)
+![MVC](./images/new.jpeg)
 ### 3. Booking Flow Diagram
-![image alt](https://github.com/gameconnn-ai/smart-event-mangement-platform/blob/684e803013229e86446b93eda988de2a25714ad9/Media%20(5).jpeg)
+![Bookings](./images/Bookings.jpeg)
 ### 4. Authentication Flow Diagram
-![image alt](https://github.com/gameconnn-ai/smart-event-mangement-platform/blob/048e2ad9067ad613e5f778516bdc22e30668d334/Media%20(4).jpeg)
+![Auth](./images/Auth.jpeg)
 
 ## Reflection
 
