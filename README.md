@@ -148,7 +148,7 @@ npm run dev
 
 ### Home Page
 
-(Add screenshot here)
+![image alt](https://github.com/gameconnn-ai/smart-event-mangement-platform/blob/6a519253ca1ef2b1723a549e01255994d35a9b4b/Screenshot%202026-05-13%20085438.png)
 
 ### Login Page
 
