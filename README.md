@@ -156,7 +156,7 @@ npm run dev
 
 ### Dashboard
 
-![image alt]()
+![image alt](https://github.com/gameconnn-ai/smart-event-mangement-platform/blob/356215651af5a7011d2f7c7ceb08c2fc4b437432/Media%20(3).jpeg)
 
 ### Booking System
 
