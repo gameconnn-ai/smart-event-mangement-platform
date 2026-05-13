@@ -166,7 +166,7 @@ npm run dev
 ## Architecture diagrams
 
 ### 1. System Architecture Diagram
-![image alt]()
+![image alt](https://github.com/gameconnn-ai/smart-event-mangement-platform/blob/241d771097def636cb7dad0b8424e648945a6a14/Media%20(7).jpeg)
 ### 2. MVC Architecture Diagram
 ![image alt](https://github.com/gameconnn-ai/smart-event-mangement-platform/blob/4fabe89d1ae8a98f1f2357595063a5d2484d0606/new.jpeg)
 ### 3. Booking Flow Diagram
