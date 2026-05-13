@@ -148,7 +148,7 @@ npm run dev
 
 ### Home Page
 
-![image alt]()
+![image alt](https://github.com/gameconnn-ai/smart-event-mangement-platform/blob/a8957945d09629bf2f38f68218902aaad6fb1c3b/WhatsApp%20Image%202026-05-13%20at%2010.02.37.jpeg)
 
 ### Login Page
 
