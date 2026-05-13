@@ -166,10 +166,13 @@ npm run dev
 ## Architecture diagrams
 
 ### 1. System Architecture Diagram
+![image alt]()
 ### 2. MVC Architecture Diagram
+![image alt]()
 ### 3. Booking Flow Diagram
+![image alt]()
 ### 4. Authentication Flow Diagram
-
+![image alt]()
 
 ## Reflection
 
