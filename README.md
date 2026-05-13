@@ -62,7 +62,7 @@ Handle application business logic and route processing.
 
 ## Team Members & Roles
 
-### Member 1 — Project Lead & Documentation
+### Member 1 - Project Lead & Documentation
 
 * GitHub management
 * MVC setup
@@ -76,19 +76,19 @@ Handle application business logic and route processing.
 * EJS pages
 * Responsive layouts
 
-### Member 3 — Backend Developer
+### Member 3 - Backend Developer
 
 * Authentication system
 * Booking system
 * Middleware
 
-### Member 4 — Database Engineer
+### Member 4 - Database Engineer
 
 * MongoDB schemas
 * CRUD operations
 * Database validation
 
-### Member 5 — Security & Dashboard
+### Member 5 - Security & Dashboard
 
 * Role-based access control
 * Analytics dashboard
