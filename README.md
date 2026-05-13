@@ -152,7 +152,7 @@ npm run dev
 
 ### Login Page
 
-![image alt]()
+![image alt](https://github.com/gameconnn-ai/smart-event-mangement-platform/blob/ee62689539d13e5cb14a7dbfd148c05055ed936d/Media.jpeg)
 
 ### Dashboard
 
