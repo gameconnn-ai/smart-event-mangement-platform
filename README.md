@@ -170,7 +170,7 @@ npm run dev
 ### 2. MVC Architecture Diagram
 ![image alt]()
 ### 3. Booking Flow Diagram
-![image alt]()
+![image alt](https://github.com/gameconnn-ai/smart-event-mangement-platform/blob/684e803013229e86446b93eda988de2a25714ad9/Media%20(5).jpeg)
 ### 4. Authentication Flow Diagram
 ![image alt](https://github.com/gameconnn-ai/smart-event-mangement-platform/blob/048e2ad9067ad613e5f778516bdc22e30668d334/Media%20(4).jpeg)
 
