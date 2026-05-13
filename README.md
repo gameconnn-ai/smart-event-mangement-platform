@@ -148,19 +148,19 @@ npm run dev
 
 ### Home Page
 
-![Home](./images/Home.jpeg)
+![Home](./images/homes.jpeg)
 
 ### Login Page
 
-![Login](./images/Login.jpeg)
+![Login](./images/logins.jpeg)
 
 ### Dashboard
 
-![Dashboard](./images/Dashboard.jpeg)
+![Dashboard](./images/dashboards.jpeg)
 
 ### Booking System
 
-![Booking](./images/Booking.jpeg)
+![Booking](./images/bookings.jpeg)
 
 ---
 ## Architecture diagrams
