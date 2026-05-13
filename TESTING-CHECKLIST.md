@@ -1,0 +1,12 @@
+# Project Checklist
+- [ ] Registration works
+- [ ] Login works
+- [ ] Password hashing works
+- [ ] Event CRUD works
+- [ ] Booking system works
+- [ ] Capacity validation works
+- [ ] Dashboard functionality works
+- [ ] Contact form works
+- [ ] Search and filtering works
+- [ ] Admin permissions work
+- [ ] Mobile responsiveness works
