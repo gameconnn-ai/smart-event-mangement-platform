@@ -160,7 +160,7 @@ npm run dev
 
 ### Booking System
 
-![image alt]()
+![image alt](https://github.com/gameconnn-ai/smart-event-mangement-platform/blob/8d66fbcd6ca841e33b464341b8cd6359d5d06503/Media%20(2).jpeg)
 
 ---
 
