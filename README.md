@@ -1,197 +1,180 @@
 # Smart Event Management & Ticketing Platform
 
+**WPR381 Group Project | Belgium Campus iTversity | 2026**
+
+---
+
 ## Project Overview
 
-The Smart Event Management & Ticketing Platform is a full-stack web application developed to help organizations manage events, ticket bookings, attendance, and customer engagement efficiently.
-
-The system solves issues such as:
-
-* Overbooking
-* Poor booking management
-* Weak access control
-* Manual event handling
-* Lack of analytics
-
-The platform allows users to:
-
-* Register and login securely
-* Browse and search events
-* Book tickets
-* View booking history
-* Contact administrators
-
-Administrators can:
-
-* Create, edit, and delete events
-* View analytics dashboards
-* Manage enquiries
-* Control event capacity
+A full-stack web application that allows Advanced Events (Pty) Ltd to manage events, sell tickets, and handle customer enquiries online. Built with Node.js, Express, EJS, and MongoDB.
 
 ---
 
 ## Technologies Used
 
-* Node.js
-* Express.js
-* MongoDB
-* Mongoose
-* EJS
-* TailwindCSS / Bootstrap
-* bcrypt
-* dotenv
+| Layer | Technology |
+|---|---|
+| Runtime | Node.js |
+| Framework | Express.js |
+| Templating | EJS (Embedded JavaScript) |
+| Database | MongoDB + Mongoose ODM |
+| Styling | Bootstrap 5 + Custom CSS |
+| Authentication | express-session + bcrypt |
+| Environment | dotenv |
+| Dev Tool | nodemon |
 
 ---
 
-## MVC Architecture
+## Team Members and Roles
 
-The project follows the MVC (Model View Controller) architecture.
-
-### Models
-
-Handle MongoDB database schemas and data logic.
-
-### Views
-
-Handle frontend pages using EJS templates.
-
-### Controllers
-
-Handle application business logic and route processing.
+| Member | Role |
+|---|---|
+| Member 1 | Team Lead / Project Coordinator |
+| Member 2 | Backend Developer |
+| Member 3 | Frontend Developer |
+| Member 4 | Database Engineer |
+| Member 5 | Security / DevOps Engineer |
 
 ---
 
-## Team Members & Roles
+## Folder Structure
 
-### Member 1 - Project Lead & Documentation
-
-* GitHub management
-* MVC setup
-* Architecture diagrams
-* Documentation
-* Testing coordination
-
-### Member 2 - Frontend Developer
-
-* UI/UX design
-* EJS pages
-* Responsive layouts
-
-### Member 3 - Backend Developer
-
-* Authentication system
-* Booking system
-* Middleware
-
-### Member 4 - Database Engineer
-
-* MongoDB schemas
-* CRUD operations
-* Database validation
-
-### Member 5 - Security & Dashboard
-
-* Role-based access control
-* Analytics dashboard
-* Contact system
+```
+smart-events/
+├── models/                  ← MongoDB schemas (M in MVC)
+│   ├── User.js
+│   ├── Event.js
+│   ├── Booking.js
+│   └── Enquiry.js
+├── views/                   ← EJS templates (V in MVC)
+│   ├── partials/
+│   │   ├── navbar.ejs
+│   │   └── footer.ejs
+│   ├── events/
+│   │   ├── manage.ejs
+│   │   ├── create.ejs
+│   │   └── edit.ejs
+│   ├── dashboard/
+│   │   ├── user.ejs
+│   │   └── admin.ejs
+│   ├── home.ejs
+│   ├── login.ejs
+│   ├── register.ejs
+│   ├── contact.ejs
+│   ├── enquiries.ejs
+│   └── error.ejs
+├── controllers/             ← Business logic (C in MVC)
+│   ├── authController.js
+│   ├── eventController.js
+│   ├── bookingController.js
+│   └── contactController.js
+├── routes/                  ← URL-to-controller mappings
+│   ├── authRoutes.js
+│   ├── eventRoutes.js
+│   ├── bookingRoutes.js
+│   └── contactRoutes.js
+├── middleware/              ← Auth/error guards
+│   ├── authMiddleware.js
+│   └── errorMiddleware.js
+├── public/                  ← Static files
+│   └── css/
+│       └── style.css
+├── .env                     ← Environment variables (not on GitHub)
+├── .gitignore
+├── app.js                   ← Server entry point
+├── seed.js                  ← Database seed script
+└── package.json
+```
 
 ---
 
 ## Setup Instructions
 
-### 1. Clone Repository
+### Prerequisites
+- Node.js installed (v18 or higher recommended)
+- MongoDB installed locally OR a MongoDB Atlas account
 
+### Step 1 — Clone the repository
 ```bash
-git clone <repository-link>
+git clone <your-github-repo-url>
+cd smart-events
 ```
 
-### 2. Install Dependencies
-
+### Step 2 — Install dependencies
 ```bash
 npm install
 ```
 
-### 3. Configure Environment Variables
-
-Create a `.env` file:
-
-```env
+### Step 3 — Set up the environment file
+Create a `.env` file in the root folder:
+```
+MONGO_URI=mongodb://localhost:27017/smart_events
+SESSION_SECRET=mySecretKey123
 PORT=3000
-MONGO_URI=your_mongodb_connection
-SESSION_SECRET=your_secret_key
 ```
 
-### 4. Start MongoDB
+### Step 4 — Seed the database (creates admin account + demo events)
+```bash
+node seed.js
+```
 
-Ensure MongoDB is running locally or use MongoDB Atlas.
-
-### 5. Run Application
-
+### Step 5 — Run the development server
 ```bash
 npm run dev
 ```
 
----
-
-## Features
-
-* User authentication
-* Event management
-* Ticket booking system
-* Capacity validation
-* Admin dashboard
-* Contact/enquiry system
-* Search and filtering
+Open your browser and go to: **http://localhost:3000**
 
 ---
 
-## Screenshots
+## Demo Accounts
 
-### Home Page
-
-![Home](./images/homes.jpeg)
-
-### Login Page
-
-![Login](./images/logins.jpeg)
-
-### Dashboard
-
-![Dashboard](./images/dashboards.jpeg)
-
-### Booking System
-
-![Booking](./images/bookings.jpeg)
+| Role | Email | Password |
+|---|---|---|
+| Admin | admin@smartevents.com | admin123 |
+| User | jane@example.com | user123 |
 
 ---
-## Architecture diagrams
 
-### 1. System Architecture Diagram
-![System](./images/System.jpeg)
-### 2. MVC Architecture Diagram
-![MVC](./images/new.jpeg)
-### 3. Booking Flow Diagram
-![Bookings](./images/Bookings.jpeg)
-### 4. Authentication Flow Diagram
-![Auth](./images/Auth.jpeg)
+## Key Pages
 
-## Reflection
+| URL | Description | Access |
+|---|---|---|
+| `/` | Home - event listing + search | Everyone |
+| `/auth/register` | Create an account | Guests only |
+| `/auth/login` | Log in | Guests only |
+| `/events/manage` | View/edit/delete events | Admin only |
+| `/events/create` | Create a new event | Admin only |
+| `/dashboard/user` | User booking history | Logged-in users |
+| `/dashboard/admin` | Analytics dashboard | Admin only |
+| `/contact` | Contact/enquiry form | Everyone |
+| `/contact/enquiries` | View all enquiries | Admin only |
 
-### Challenges Faced
+---
 
-* Managing integration between frontend and backend
-* Handling authentication securely
-* Organizing team collaboration
+## How Authentication Works
 
-### What We Learned
+1. User fills in the register form
+2. Password is hashed using **bcrypt** (never stored as plain text)
+3. On login, bcrypt compares the entered password against the stored hash
+4. On success, user info is saved in an **express-session** (stored server-side)
+5. Middleware checks `req.session.user` on every protected route
 
-* MVC architecture
-* MongoDB integration
-* GitHub collaboration
-* Full-stack development workflow
+---
 
-### Future Improvements
+## How MVC Works in This Project
 
-* Online payment integration
-* Email notifications
-* QR code ticketing
-* Advanced analytics
+- **Model** — `models/` folder — defines the MongoDB schema and interacts with the database
+- **View** — `views/` folder — EJS templates that display data to the user
+- **Controller** — `controllers/` folder — receives requests, calls the model, sends data to the view
+- **Routes** — connect URLs to controllers, with middleware applied as needed
+
+---
+
+## How Booking Validation Works
+
+1. User selects number of tickets and clicks "Book Now"
+2. Controller checks: `requestedTickets <= event.availableTickets`
+3. If enough tickets: booking is created, `event.availableTickets` is reduced
+4. If not enough tickets: error flash message is shown
+5. On cancellation: tickets are returned to the event's available count
