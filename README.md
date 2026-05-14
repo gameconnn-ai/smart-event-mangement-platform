@@ -194,4 +194,4 @@ npm run dev
 * Online payment integration
 * Email notifications
 * QR code ticketing
-* Advanced analytics please tell me what i should say in a brief while presenting thsi 
+* Advanced analytics 
